@@ -27,3 +27,8 @@ from ctypes import c_float
 data_c_float = c_float(10.5)
 print("Nilai data_c_float =",data_c_float ,"--Tipe data =",type(data_c_float))
 
+from math import sqrt
+print("Nilai akar 9 =",sqrt(9))
+
+from math import factorial
+print("Nilai faktorial 5 =",factorial(5))
